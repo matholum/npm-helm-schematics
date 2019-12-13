@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "Helm Script Runner Target Options",
+    "description": "Helm Script Runner target options for Build Architect.",
+    "type": "object",
+    "properties": {
+      "projectHelmPath": {
+        "type": "string",
+        "description": "The path to the directory containing helm files for your project, such as values.yaml or a local helm chart."
+      },
+      "valuesPath": {
+        "type": "string",
+        "description": "An override of the path to the values.yaml file to use."
+      },
+      "repository": {
+        "type": "string",
+        "description": "The name of the repository containing your chart."
+      },
+      "chart": {
+        "type": "string",
+        "description": "The name of the chart to use (without the repository)."
+      },
+      "upgrade": {
+        "type": "boolean",
+        "description": "Whether or not to do an upgrade instead of an install."
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "chart"
+    ]
+  }
+  

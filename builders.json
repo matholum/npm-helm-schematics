@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/@angular-devkit/architect/src/builders-schema.json",
+  "builders": {
+    "build-deploy-script": {
+      "implementation": "./builders/helmScriptBuilder/helmScriptBuilder",
+      "schema": "./builders/helmScriptBuilder/schema.json",
+      "description": "Create a script to deploy a project with helm."
+    },
+    "run-deploy-script": {
+      "implementation": "./builders/helmScriptRunner/helmScriptRunner",
+      "schema": "./builders/helmScriptRunner/schema.json",
+      "description": "Deploy a project with helm."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
+    "schematics": {
+      "helm": {
+        "description": "Add helm to a project.",
+        "factory": "./schematics/helm/index",
+        "schema": "./schematics/helm/schema.json"
+      },
+      "helm-repository": {
+        "description": "Add a helm chart from a repository to a project.",
+        "factory": "./schematics/helmRepository/index",
+        "schema": "./schematics/helmRepository/schema.json"
+      },
+      "helm-local": {
+        "description": "Add a new helm chart to a project.",
+        "factory": "./schematics/helmLocal/index",
+        "schema": "./schematics/helmLocal/schema.json"
+      }
+    }
+  }

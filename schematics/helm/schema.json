@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsMyService",
+  "title": "My Service Schema",
+  "type": "object",
+  "properties": {
+    "project": {
+      "type": "string",
+      "description": "The name of the project.",
+      "$default": {
+        "$source": "projectName"
+      }
+    },
+    "buildPath": {
+      "type": "string",
+      "description": "The path of the directory to be used as the working directory for docker."
+    },
+    "createValues": {
+      "type": "boolean",
+      "description": "Whether or not to generate a values.yaml file.",
+      "default": true
+    },
+    "chartType": {
+      "enum": [
+        "Use a chart from a repository",
+        "Create a chart within my project"
+      ],
+      "default": "Use a chart from a repository",
+      "description": "Whether to use a local chart or one from a repository.",
+      "x-prompt": "What kind of chart should be used for this project?"
+    }
+  },
+  "required": ["project", "chartType"]
+}
