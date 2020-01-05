@@ -1,6 +1,6 @@
 {
   "name": "helm-schematics",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Killian Hale",
   "license": "MIT",
   "private": false,
@@ -33,6 +33,7 @@
     "@types/underscore": "^1.9.4",
     "@types/yargs": "^13.0.3",
     "common-schematics": "^0.0.5",
+    "docker-schematics": "^0.0.2",
     "tslint": "^5.20.1",
     "typescript": "^3.7.2"
   },
@@ -46,6 +47,7 @@
   },
   "peerDependencies": {
     "@nrwl/workspace": "8.7.1",
-    "common-schematics": "^0.0.5"
+    "common-schematics": "^0.0.5",
+    "docker-schematics": "^0.0.2"
   }
 }

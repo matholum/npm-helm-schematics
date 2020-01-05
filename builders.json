@@ -10,6 +10,11 @@
       "implementation": "./builders/helmScriptRunner/helmScriptRunner",
       "schema": "./builders/helmScriptRunner/schema.json",
       "description": "Deploy a project with helm."
+    },
+    "build-minikube-docker": {
+      "implementation": "./builders/minikubeDockerBuilder/minikubeDockerBuilder",
+      "schema": "./builders/minikubeDockerBuilder/schema.json",
+      "description": "Build a docker container inside of minikube."
     }
   }
 }

@@ -15,6 +15,11 @@
         "description": "Add a new helm chart to a project.",
         "factory": "./schematics/helmLocal/index",
         "schema": "./schematics/helmLocal/schema.json"
+      },
+      "minikube": {
+        "description": "Add a minikube tools to a project.",
+        "factory": "./schematics/minikube/index",
+        "schema": "./schematics/minikube/schema.json"
       }
     }
   }

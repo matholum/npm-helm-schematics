@@ -468,6 +468,18 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+docker-schematics@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/docker-schematics/-/docker-schematics-0.0.2.tgz#1c5a3999a240f252c44a727a63f6c0cc4f695596"
+  integrity sha512-cgREQ4OxI55VR0YbDWqm9xC0/qoggRR+nOpBXc7473oPZF0fLHLL0pHp//Dh2iRIbH8rooOweA3XQPSRo4vClA==
+  dependencies:
+    fs-extra "^8.1.0"
+    observable-spawn "^1.0.0"
+    prettier "^1.19.1"
+    rxjs "^6.5.3"
+    underscore "^1.9.1"
+    yargs "^15.0.2"
+
 emoji-regex@^7.0.1:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-7.0.3.tgz#933a04052860c85e83c122479c4748a8e4c72156"
