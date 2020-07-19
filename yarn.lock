@@ -395,10 +395,10 @@ commander@^3.0.2:
   resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
   integrity sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow==
 
-common-schematics@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/common-schematics/-/common-schematics-0.0.5.tgz#1cb9ce6d970ecbf3bca0375410b1a5eeeb479b43"
-  integrity sha512-gh0Z+292x7nyOlO04v0e2GEoT1Xhe2jcueXYhYH+Wkwle5a7R5i9tgvYy+CzvhkhpJFX63QJfyeYv2ZlDKl0AQ==
+common-schematics@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/common-schematics/-/common-schematics-0.0.6.tgz#cb9870a654d9f0c92c3058e12ee974855082773d"
+  integrity sha512-xyEv2M+mM8dEbBTMpyrUHbyKkigLTm9t+y3+ruCQfrLClFgf3tun79LMsv5n0km7FpNDNL801y3WGLV5TtAS1A==
   dependencies:
     commander "^3.0.2"
     fs-extra "^8.1.0"
@@ -468,10 +468,10 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-docker-schematics@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/docker-schematics/-/docker-schematics-0.0.2.tgz#1c5a3999a240f252c44a727a63f6c0cc4f695596"
-  integrity sha512-cgREQ4OxI55VR0YbDWqm9xC0/qoggRR+nOpBXc7473oPZF0fLHLL0pHp//Dh2iRIbH8rooOweA3XQPSRo4vClA==
+docker-schematics@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/docker-schematics/-/docker-schematics-0.0.3.tgz#7bf4ae9b3e726f0b7cff56b18cb3240adae0905c"
+  integrity sha512-u1nDIBWdfZiF6gwL6w7aPL+VVTnEZARZgx5babq1nibcAJiD3+pKQXPHnmKVy0WUWVVa37IUl4qC3xiFtx7B2Q==
   dependencies:
     fs-extra "^8.1.0"
     observable-spawn "^1.0.0"
@@ -979,9 +979,9 @@ locate-path@^5.0.0:
     p-locate "^4.1.0"
 
 lodash@^4.17.12, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 magic-string@0.25.3:
   version "0.25.3"
